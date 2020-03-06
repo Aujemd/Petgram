@@ -13,3 +13,9 @@ npm i react react-dom
 npm i @babel/core @babel/preset-env babel-loader --save-dev
 
 npm i @babel/preset-react --save-dev
+
+npm i standard --save-dev
+
+Hacer deploy al api como al front con now
+
+npm install --save-dev prettier-eslint
