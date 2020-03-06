@@ -23,3 +23,4 @@ npm install --save-dev prettier-eslint
 npm i styled-components
 
 npm i file-loader --save-dev
+
