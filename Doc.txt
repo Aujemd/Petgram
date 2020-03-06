@@ -19,3 +19,7 @@ npm i standard --save-dev
 Hacer deploy al api como al front con now
 
 npm install --save-dev prettier-eslint
+
+npm i styled-components
+
+npm i file-loader --save-dev
