@@ -7,3 +7,9 @@ Para empaquetar con webpack
 npm i html-webpack-plugin --save-dev
 
 npm i webpack-dev-server --save-dev
+
+npm i react react-dom
+
+npm i @babel/core @babel/preset-env babel-loader --save-dev
+
+npm i @babel/preset-react --save-dev
