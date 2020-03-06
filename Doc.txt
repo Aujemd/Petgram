@@ -1,0 +1,9 @@
+npm i webpack webpack-cli --save-dev
+
+Para empaquetar con webpack
+
+"./node_modules/.bin/webpack" src/index.js
+
+npm i html-webpack-plugin --save-dev
+
+npm i webpack-dev-server --save-dev
