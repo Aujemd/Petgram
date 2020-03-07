@@ -26,3 +26,15 @@ npm i file-loader --save-dev
 
 npm i react-icons
 
+Pa crear logos calidad
+
+https://maketext.io/
+
+Optimizar los logos
+
+https://jakearchibald.github.io/svgomg/
+
+luego pasar logo a componente de react alv
+
+https://react-svgr.com/playground/
+
