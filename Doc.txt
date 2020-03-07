@@ -38,3 +38,7 @@ luego pasar logo a componente de react alv
 
 https://react-svgr.com/playground/
 
+npm i intersection-observer
+
+npm i babel-eslint --save-dev
+
