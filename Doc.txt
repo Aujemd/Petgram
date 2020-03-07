@@ -42,3 +42,5 @@ npm i intersection-observer
 
 npm i babel-eslint --save-dev
 
+npm i apollo-boost react-apollo graphql
+
