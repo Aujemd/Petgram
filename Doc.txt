@@ -24,3 +24,5 @@ npm i styled-components
 
 npm i file-loader --save-dev
 
+npm i react-icons
+
