@@ -8,7 +8,7 @@ import {ImgWrapper, Img, Article} from './styles'
 import {useLocalStorage} from '../../hooks/useLocalStorage'
 import {useNearScreen} from '../../hooks/useNearScreen'
 import {ToggleLikeMutation} from '../../container/ToggleLikeMutation'
-
+import {Link} from '@reach/router'
 export const PhotoCard = ({id, likes = 0, src = DEFAULT_IMAGE}) => {
     
     const[show, ref] = useNearScreen()
@@ -19,11 +19,11 @@ export const PhotoCard = ({id, likes = 0, src = DEFAULT_IMAGE}) => {
         <Article ref = {ref}>
             {
                 show && <>
-                <a href={`/?detail=${id}`}>
+                <Link to={`/detail/${id}`}>
                     <ImgWrapper>
                         <Img src={src}></Img>
                     </ImgWrapper>
-                </a>
+                </Link>
                 <ToggleLikeMutation>
                     {
                         (toggleLike) => {
