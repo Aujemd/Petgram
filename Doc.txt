@@ -45,3 +45,5 @@ npm i babel-eslint --save-dev
 npm i apollo-boost react-apollo graphql
 
 npm i @reach/router
+
+npm i react-helmet
