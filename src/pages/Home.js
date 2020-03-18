@@ -4,7 +4,7 @@ import {ListOfCategories} from '../components/ListOfCategories/index'
 import {Helmet} from 'react-helmet'
 import {Layout} from '../components/Layout/index'
 
-export const Home = ({id}) => {
+const HomePage = ({id}) => {
     return(
         <Layout
         title="Tu app de fotos de mascotas"
@@ -15,3 +15,7 @@ export const Home = ({id}) => {
         </Layout>
     )
 }
+
+export const Home = React.memo(HomePage, (prevProps, props) => {
+    return prevProps.categoryId === props.categoryId
+})

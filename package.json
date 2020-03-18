@@ -6,9 +6,11 @@
   "scripts": {
     "lint-fix": "standard --fix",
     "now-build": "npm run build",
-    "build": "webpack",
     "dev": "webpack-dev-server --history-api-fallback",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode development",
+    "start:dev": "npx serve dist -s",
+    "serve:dev": "npm run build && npm run start:dev"
   },
   "repository": {
     "type": "git",
