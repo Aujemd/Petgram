@@ -47,3 +47,5 @@ npm i apollo-boost react-apollo graphql
 npm i @reach/router
 
 npm i react-helmet
+
+npm i prop-types
