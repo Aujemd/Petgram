@@ -49,3 +49,7 @@ npm i @reach/router
 npm i react-helmet
 
 npm i prop-types
+
+npm i webpack-pwa-manifest -D
+
+npm i workbox-webpack-plugin -D

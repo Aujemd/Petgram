@@ -19,6 +19,11 @@
         {
             "src": "/.*",
             "dest": "index.html"
+        },
+        {
+            "src": "(.*).png",
+            "dest": "/$1.png"
         }
+        
     ]
 }

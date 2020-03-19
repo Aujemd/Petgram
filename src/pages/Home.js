@@ -1,7 +1,6 @@
 import React from 'react'
 import {ListOfPhotoCards} from '../container/ListOfPhotoCards'
 import {ListOfCategories} from '../components/ListOfCategories/index'
-import {Helmet} from 'react-helmet'
 import {Layout} from '../components/Layout/index'
 
 const HomePage = ({id}) => {
@@ -17,5 +16,5 @@ const HomePage = ({id}) => {
 }
 
 export const Home = React.memo(HomePage, (prevProps, props) => {
-    return prevProps.categoryId === props.categoryId
+    return prevProps.id === props.id
 })
