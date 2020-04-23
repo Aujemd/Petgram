@@ -1,3 +1,4 @@
-# curso-platzi-react-avanzado ⚛️
+# Petgram
+### Application made in react.js ⚛️ for course avanzed of react from platzi :rocket:
 
-Repositorio con el código del [Curso Avanzado de React de Platzi](https://platzi.com/cursos/react-avanzado/)
+:mag_right: Live demo : https://petgram-91rw9x5p4.now.sh/
